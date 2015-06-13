@@ -1,0 +1,8 @@
+- name: start opsdash agent
+  service:
+    name: opsdash-agentd
+    state: running
+- name: start opsdash server
+  service:
+    name: opsdash-serverd
+    state: running

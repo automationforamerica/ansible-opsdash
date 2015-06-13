@@ -1,0 +1,7 @@
+---
+opsdash_agent_version: 1.1
+opsdash_agent_architecture: amd64
+fqdn: ""
+
+opsdash_server_version: "{{ opsdash_agent_version }}"
+opsdash_server_architecture: "{{ opsdash_agent_architecture }}"
